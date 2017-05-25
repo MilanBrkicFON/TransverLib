@@ -28,5 +28,5 @@ public interface Akcije {
     int PROMENI_CLANOVE = 15;
     int VRATI_SVE_CLANOVE_ZA_TRENING = 16;
     int VRATI_SVE_TRENERE_ZA_TRENING = 17;
-    
+    int POSTAVI_OSLUSKIVACA = 18;
 }
