@@ -11,6 +11,10 @@ package util;
  */
 public interface Akcije {
 
+    public static int VRATI_SVA_SPORTOVE = 20;
+
+    int PROMENI_TRENERE = 19;
+
     int VRATI_SVA_MESTA = 1;
     int VRATI_SVE_CLANOVE = 2;
     int UBACI_CLANA = 3;
