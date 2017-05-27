@@ -11,10 +11,6 @@ package util;
  */
 public interface Akcije {
 
-    public static int VRATI_SVA_SPORTOVE = 20;
-
-    int PROMENI_TRENERE = 19;
-
     int VRATI_SVA_MESTA = 1;
     int VRATI_SVE_CLANOVE = 2;
     int UBACI_CLANA = 3;
@@ -27,10 +23,13 @@ public interface Akcije {
     int DODAJ_CLANA_NA_TRENING = 10;
     int DODAJ_TRENERA_NA_TRENING = 11;
     int KREIRAJ_TRENING = 12;
-    int VRATI_MAX_ID = 13;
+    int VRATI_MAX_ID_CLAN = 13;
     int USPOSTAVI_KONEKCIJU_NA_BAZU = 14;
     int PROMENI_CLANOVE = 15;
     int VRATI_SVE_CLANOVE_ZA_TRENING = 16;
     int VRATI_SVE_TRENERE_ZA_TRENING = 17;
     int POSTAVI_OSLUSKIVACA = 18;
+    int PROMENI_TRENERE = 19;
+    int VRATI_SVA_SPORTOVE = 20;
+    int VRATI_MAX_ID_TRENER = 21;
 }
