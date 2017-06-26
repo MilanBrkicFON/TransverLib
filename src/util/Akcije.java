@@ -11,6 +11,8 @@ package util;
  */
 public interface Akcije {
 
+    public static int OBRISI_CLANOVE_SA_TRENINGA = 22;
+    public static int OBRISI_TRENERE_SA_TRENINGA = 23;
     int VRATI_SVA_MESTA = 1;
     int VRATI_SVE_CLANOVE = 2;
     int UBACI_CLANA = 3;
@@ -18,7 +20,7 @@ public interface Akcije {
     int VRATI_SVE_TRENERE = 5;
     int UBACI_TRENERA = 6;
     int OBRISI_TRENERA = 7;
-    int VRATI_DATUME = 8;
+    int VRATI_TRENINGE = 8;
     int VRATI_VREMENA = 9;
     int DODAJ_CLANA_NA_TRENING = 10;
     int DODAJ_TRENERA_NA_TRENING = 11;
